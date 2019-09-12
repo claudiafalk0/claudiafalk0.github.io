@@ -1,103 +1,75 @@
-26
-2
-
-
-
-
-
-
-Message List
-Loading history...
-
-TA - Joel O'Connor [11:23 AM]
-Layout Activity - 11-CSS_Positioned_Activity
-Zip 
-Archive.zip
-138 kB Zip — Click to download
-
-Sarah Cullen [11:47 AM]
-Zip 
-positioningLayoutStarterCode.zip
-3 kB Zip — Click to download
-
-Sarah Cullen [1:14 PM]
-https://developers.google.com/web/tools/chrome-devtools/css/
-Google Developers
-Get Started With Viewing And Changing CSS  |  Tools for Web Developers        |  Google Developers
-Learn how to use Chrome DevTools to view and change a page's CSS.
-https://developers.google.com/web/images/social-webfu-16x9.png
-
-TA - Joel O'Connor [1:15 PM]
-Solution to exercise we did before lunch.
-Zip 
-Solved.zip
-3 kB Zip — Click to download
-
-TA - Joel O'Connor [1:35 PM]
-03-MultipleCSS
-Zip 
-Archive.zip
-6 kB Zip — Click to download
-
-Sarah Cullen [2:10 PM]
-*Normalize:* http://nicolasgallagher.com/about-normalize-css/
-nicolasgallagher.com
-About normalize.css – Nicolas Gallagher
-A small CSS library to make browser defaults more consistent
-
-TA - Joel O'Connor [2:11 PM]
-Link to CSS Reset https://meyerweb.com/eric/tools/css/reset/
-
-Sarah Cullen [2:21 PM]
-dad-jokes.html 
-<!DOCTYPE html>
-<!-- saved from url=(0045)file:///Users/sarahcullen/code/dad-jokes.html -->
+<!doctype html>
 <html lang="en-us">
-​
+
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Bad/good jokes -- scwebd.github.io</title>
-​
+  <meta charset="UTF-8">
+  <title>About | Claudia Falk</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </head>
-​
+<style>
+img{
+  margin-right: 20px;
+}
+</style>
+
+
 <body>
-	<h1>Dad jokes, anybody?!!</h1>
-​
-	<p>I used to have a job at a calendar factory but I got the sack because I took a couple of days off.</p>
-​
-	<p>How do you make holy water? You boil the hell out of it.</p>
-​
-	<p>Why can't you hear a pterodactyl go to the bathroom? Because the pee is silent.</p>
-​
-	<p>A woman is on trial for beating her husband to death with his guitar collection. Judge says, 'First offender?' She says, 'No, first a Gibson! Then a Fender!</p>
-​
-	<p>What is Beethoven's favorite fruit? A ba-na-na-na.</p>
-​
-  <p>What's Forrest Gump's password? 1forrest1</p>
-  
-  <p>I'd like to give a big shout out to the sidewalks... they've really kept me off the streets.</p>
-​
-	<p>Want to hear a joke about a piece of paper? Never mind... it's tearable.</p>
-​
-	<p>I bought some shoes from a drug dealer. I don't know what he laced them with, but I was tripping all day!</p>
-​
-	<p>A termite walks into a bar and asks, "Is the bar tender here?</p>
-​
-	<p>Did you hear about the circus fire? It was in tents!</p>
-​
-  <p>Can February March? No, but April May!</p>
-  
-  <p>What's a sea monster's favorite snack? Ships and dip!</p>
-​
-	<p>Have you heard of the band 1023 MB? ...they haven't got a gig yet.</p>
-	
-	<p>What do you call bears with no teeth? Gummy bears!</p>
+    <nav class="navbar navbar-light" style="background-color: cadetblue;">
+        <a class="navbar-brand" href="index.html">Claudia Falk</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+          </span>
+        </div>
+      </nav>
+   
+
+  <div id="main-container" class="container" >
+    <section class="main-section">
+      <div id = "background">
+
+        <h1>About Me</h1>
+        <div id = "absolute">
+          <img src="images/newProfileimage.jpg" class="auth-image w-25 img-thumbnail rounded float-left" alt="Claudia Falk">
+        </div>
+        <div id = "relative">
+          <p style = 'color: black'> Full stack developer with a background in fine arts. Educated at the University of Denver Continuing Ed with skills in MERN technologies, as well as AWS S3. </p>
+          <p style = 'color: black'> Quick learner passionate about collaborating with others to find different solutions to programming challenges and creating responsive websites.</p>
+          <p style = 'color: black'> Successfully communicated between departmental groups in order to coordinate client web designs. </p>
+          <p style = 'color: black'>Strengths in teamwork, communication, problem solving, and maintaining composure in difficult situations. </p>
+        </div>
+          
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div>
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
-​
+
 </html>
-Collapse
-
-Message Input
-
-
-Message #01-class-activities
